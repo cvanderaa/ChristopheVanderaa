@@ -20,6 +20,11 @@ gem "minima", "~> 2.0"
 # If you have any plugins, put them here!
 group :jekyll_plugins do
   gem "jekyll-feed", "~> 0.6"
+  gem "jekyll-seo-tag"
+  gem "jekyll-sitemap"
+  gem "jekyll-paginate"
+  gem "jekyll-include-cache"
+  gem "jekyll-algolia"
 end
 
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
@@ -36,3 +41,10 @@ gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 # kramdown v1, comment out this line.
 gem "kramdown-parser-gfm"
 
+# Using the minimal-mistakes layout
+# With Gem-based themes, directories such as the assets, _layouts, _includes, 
+# and _sass are stored in the theme’s gem, hidden from your immediate view. 
+# This allows for easier installation and updating as you don’t have to manage
+# any of the theme files.
+gem "minimal-mistakes-jekyll"
+gem "jekyll-remote-theme" ## For GitHub deployment

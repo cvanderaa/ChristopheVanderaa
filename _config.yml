@@ -13,20 +13,127 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Chris Vanderaa
+title: Dad, the scientist
+title_separator: "|"
+name: Christophe Vanderaa
 email: christophe.vanderaa@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Chris's personal website.
-baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: c_vanderaa
-github_username:  cvanderaa
+  My personal website with thoughts about science and society.
+# baseurl: "" # the subpath of your site, e.g. /blog
+# url: "" # the base hostname & protocol for your site, e.g. http://example.com
+# repository: "cvanderaa/chrisvanderaa"
+
+# Author information
+author:
+  name     : "Chris Vanderaa"
+  # avatar   : "/assets/images/bio-photo.jpg"
+  bio      : "My awesome biography constrained to a sentence or two goes here."
+  location : "Brussels, Belgium"
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/c_vanderaa"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/cvanderaa"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin-in"
+      url: "https://www.linkedin.com/in/cvanderaa/"
+    - label: "ORCID"
+      icon: "fab fa-orcid"
+      url: "https://orcid.org/0000-0001-7443-5427"
+footer:
+  links:
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/c_vanderaa"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/cvanderaa"
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin-in"
+      url: "https://www.linkedin.com/in/cvanderaa/"
+    - label: "ORCID"
+      icon: "fab fa-orcid"
+      url: "https://orcid.org/0000-0001-7443-5427"
+# To change “Follow:” text that precedes footer links, edit the follow_label key
+# in _data/ui-text.yml.
 
 # Build settings
 markdown: kramdown
-theme: minima
-plugins:
-  - jekyll-feed
+locale: en
+timezone: Europe/Brussels
+
+# Use the minimal-mistakes theme
+theme: minimal-mistakes-jekyll
+minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+remote_theme: benbalter/retlab # For GitHub deployment
+
+# Default post params
+defaults:
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      show_date: true
+      read_time: true
+      words_per_minute: 250
+      share: true
+      related: true
+
+tag_archive:
+  type: liquid
+  path: /tags/
+
+# Social media
+twitter:
+  username: "mmistakes-theme"
+# You need to validate cards are working and have Twitter approve Player Cards 
+# before they will begin showing up: https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/player-card
+twitter_username: c_vanderaa
+  https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/player-card
+github_username:  cvanderaa
+
+# Search engine optimization
+# google_site_verification: "yourVerificationCode" # https://www.google.com/webmasters/tools/
+# bing_site_verification: "0FC3FD70512616B052E755A56F8952D" # https://www.bing.com/webmasters/help/add-and-verify-site-12184f8b
+
+# Customization
+#permalink: /:categories/:title/
+# paginate: 5 # amount of posts to show
+# paginate_path: /page:num/# 
+# teaser: /assets/images/500x300.png # The default teaser image for all posts
+# logo: "/assets/images/88x88.png" # logo of the home button
+# For pages that don’t have a header.image assigned in their YAML Front Matter, 
+# site.og_image will be used as a fallback. Use your logo, icon, avatar or 
+# something else that is meaningful. Just make sure it is placed in the 
+# /assets/images/ folder, has a minimum size of 120px by 120px, and is less than 
+# 1MB in file size.
+# og_image: /assets/images/site-logo.png
+
+# By default your site title is used in the masthead. You can override this text 
+# by adding the following to your _config.yml
+# masthead_title: "My Custom Title"
+date_format: "%Y-%m-%d"
+atom_feed:
+  hide: true
+search: true
+lunr:
+  search_within_pages: true
+# search_full_content: true
+
+# Include scripts
+# Add scripts to the <head> or closing </body> elements by assigning paths to
+# either head_scripts and/or footer_scripts.
+# For example, to add a CDN version of jQuery to page’s head along with a custom
+# script you’d do the following:
+# head_scripts:
+#   - https://code.jquery.com/jquery-3.2.1.min.js
+#   - /assets/js/your-custom-head-script.js
+
+# Include when processing.
+include: ["_pages"]
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
