@@ -42,9 +42,12 @@ gem "wdm", "~> 0.1.0", :install_if => Gem.win_platform?
 gem "kramdown-parser-gfm"
 
 # Using the minimal-mistakes layout
-# With Gem-based themes, directories such as the assets, _layouts, _includes, 
-# and _sass are stored in the theme’s gem, hidden from your immediate view. 
+# With Gem-based themes, directories such as the assets, _layouts, _includes,
+# and _sass are stored in the theme’s gem, hidden from your immediate view.
 # This allows for easier installation and updating as you don’t have to manage
 # any of the theme files.
 gem "minimal-mistakes-jekyll"
 gem "jekyll-remote-theme" ## For GitHub deployment
+
+# see https://github.com/jekyll/jekyll/issues/8523
+gem "webrick"

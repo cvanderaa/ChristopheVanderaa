@@ -13,23 +13,35 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: Dad, the scientist
-title_separator: "|"
+title: Christophe Vanderaa
+title_separator: "-"
+# subtitle: "My personal website"
 name: Christophe Vanderaa
 email: christophe.vanderaa@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  My personal website with thoughts about science and society.
+description: >- # this means to ignore newlines
+  Christophe Vanderaa's personal websites.
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
-# repository: "cvanderaa/chrisvanderaa"
+repository: "cvanderaa/ChristopheVanderaa"
 
 # Author information
 author:
-  name     : "Chris Vanderaa"
-  # avatar   : "/assets/images/bio-photo.jpg"
-  bio      : "My awesome biography constrained to a sentence or two goes here."
+  name     : "Christophe Vanderaa"
+  avatar   : /assets/images/avatar.jpg
+  bio      : >-
+    I'm a bioinformatician who works as a postdoc researcher in the
+    department of Applied Mathematics, Computer Science and Statistics
+    at the UGent. Native French and Dutch speaker. I believe that
+    thorough science brings us closer to a useful truth. I hope to
+    play part to this ambitious mission through sound and reproducible
+    data analysis. Next to that, I am also passionate about market
+    gardening and am committed to a sustainable and resilient
+    lifestyle.
   location : "Brussels, Belgium"
   links:
+    - label: "Mastodon"
+      icon: "fab fa-mastodon"
+      url: "https://fediscience.org/@cvanderaa"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
       url: "https://twitter.com/c_vanderaa"
@@ -42,6 +54,10 @@ author:
     - label: "ORCID"
       icon: "fab fa-orcid"
       url: "https://orcid.org/0000-0001-7443-5427"
+    - label: "Google Scholar"
+      icon: "fa-brands fa-google-scholar"
+      url: "https://scholar.google.com/citations?hl=en&user=sMr9ndgAAAAJ"
+
 footer:
   links:
     - label: "Twitter"
@@ -53,9 +69,10 @@ footer:
     - label: "LinkedIn"
       icon: "fab fa-linkedin-in"
       url: "https://www.linkedin.com/in/cvanderaa/"
-    - label: "ORCID"
-      icon: "fab fa-orcid"
-      url: "https://orcid.org/0000-0001-7443-5427"
+    - label: "Mastodon"
+      icon: "fab fa-mastodon"
+      url: "https://fediscience.org/@cvanderaa"
+
 # To change “Follow:” text that precedes footer links, edit the follow_label key
 # in _data/ui-text.yml.
 
@@ -87,9 +104,7 @@ tag_archive:
   path: /tags/
 
 # Social media
-twitter:
-  username: "mmistakes-theme"
-# You need to validate cards are working and have Twitter approve Player Cards 
+# You need to validate cards are working and have Twitter approve Player Cards
 # before they will begin showing up: https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/player-card
 twitter_username: c_vanderaa
   https://developer.twitter.com/en/docs/tweets/optimize-with-cards/overview/player-card
@@ -102,17 +117,17 @@ github_username:  cvanderaa
 # Customization
 #permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
-# paginate_path: /page:num/# 
-# teaser: /assets/images/500x300.png # The default teaser image for all posts
+# paginate_path: /page:num/#
+teaser: /assets/images/avatar.jpg # The default teaser image for all posts
 # logo: "/assets/images/88x88.png" # logo of the home button
-# For pages that don’t have a header.image assigned in their YAML Front Matter, 
-# site.og_image will be used as a fallback. Use your logo, icon, avatar or 
-# something else that is meaningful. Just make sure it is placed in the 
-# /assets/images/ folder, has a minimum size of 120px by 120px, and is less than 
+# For pages that don’t have a header.image assigned in their YAML Front Matter,
+# site.og_image will be used as a fallback. Use your logo, icon, avatar or
+# something else that is meaningful. Just make sure it is placed in the
+# /assets/images/ folder, has a minimum size of 120px by 120px, and is less than
 # 1MB in file size.
 # og_image: /assets/images/site-logo.png
 
-# By default your site title is used in the masthead. You can override this text 
+# By default your site title is used in the masthead. You can override this text
 # by adding the following to your _config.yml
 # masthead_title: "My Custom Title"
 date_format: "%Y-%m-%d"

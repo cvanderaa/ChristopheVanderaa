@@ -1,13 +1,289 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2022-11-02T15:24:55+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2022/11/02/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2022-11-02T14:34:29+01:00</published><updated>2022-11-02T14:34:29+01:00</updated><id>http://localhost:4000/jekyll/update/2022/11/02/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2022/11/02/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.9.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2024-11-19T16:53:37+01:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Christophe Vanderaa</title><subtitle>Christophe Vanderaa&apos;s personal websites.</subtitle><author><name>Christophe Vanderaa</name></author><entry><title type="html">Attending conferences</title><link href="http://localhost:4000/2024/05/03/attending-conferences.html" rel="alternate" type="text/html" title="Attending conferences" /><published>2024-05-03T17:34:29+02:00</published><updated>2024-05-03T17:34:29+02:00</updated><id>http://localhost:4000/2024/05/03/attending-conferences</id><content type="html" xml:base="http://localhost:4000/2024/05/03/attending-conferences.html"><![CDATA[<p>In this post, I list all the conferences I have attended and, for
+some, the material I have presented.</p>
 
-<p>To add new posts, simply add a file in the <code class="language-plaintext highlighter-rouge">_posts</code> directory that follows the convention <code class="language-plaintext highlighter-rouge">YYYY-MM-DD-name-of-post.ext</code> and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+<h2 id="escp2024">ESCP2024</h2>
 
-<p>Jekyll also offers powerful support for code snippets:</p>
+<p>European Bioconductor conference 2023</p>
 
-<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
-  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
-<span class="k">end</span>
-<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
-<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+<p>August 27, 2023</p>
 
-<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry></feed>
+<p>Vienna</p>
+
+<p>Austrian Proteomics and Metabolomics Association</p>
+
+<p>Invited talk: “Linear models to interpret and explain singlecell
+proteomics data”</p>
+
+<h2 id="eurobioc2023">EuroBioc2023</h2>
+
+<p>European Bioconductor conference 2023</p>
+
+<p>September 20-22, 2023</p>
+
+<p>Gent</p>
+
+<p>European Bioconductor Society</p>
+
+<p>Presented: “Linear models for single-cell proteomics”</p>
+
+<h2 id="3-minute-thesis">3 minute thesis</h2>
+
+<p>Training and competition</p>
+
+<p>March 2023</p>
+
+<p>Louvain-la-Neuve</p>
+
+<p>UCLouvain</p>
+
+<p>See <a href="https://youtu.be/RE2-xzRzIiQ?si=0o6Yu9QU2nYBe0m7">video</a>.</p>
+
+<h2 id="eurobioc2022">EuroBioc2022</h2>
+
+<p>European Bioconductor conference 2022</p>
+
+<p>September 14-16, 2022</p>
+
+<p>Heidelberg</p>
+
+<p>European Bioconductor Society</p>
+
+<p>Presented poster: “The current state of single-cell proteomics data
+analysis”</p>
+
+<h2 id="scp2022">SCP2022</h2>
+
+<p>Single cell proteomics meetings 2022</p>
+
+<p>15-16 juin 2022</p>
+
+<p>Boston (USA)</p>
+
+<p>Slavov Lab, Northeastern university</p>
+
+<p>Presented poster: “The need for standardization in mass
+spectrometry-based single cell proteomics”</p>
+
+<h2 id="leuven-bioinformatics-and-ai-seminars">Leuven Bioinformatics and AI seminars</h2>
+
+<p>8 juin 2022</p>
+
+<p>Leuven</p>
+
+<p>VIB</p>
+
+<p>Presented: “The need for better data analysis in mass
+spectrometry-based single-cell proteomics”</p>
+
+<h2 id="ngpad2022">NGPAD2022</h2>
+
+<p>Next Generation Protein Analysis and Detection</p>
+
+<p>30-31 mai 2022</p>
+
+<p>Gent</p>
+
+<p>VIBconferences</p>
+
+<p>Presented poster: “The need for standardization in mass
+spectrometry-based single cell proteomics”</p>
+
+<h2 id="de-duve-phd-students-day-2022">De Duve PhD students day 2022</h2>
+
+<p>May 24th 2022</p>
+
+<p>Brussels</p>
+
+<p>de Duve Institute</p>
+
+<p>Presented: “Development of a computational framework to analyze
+single-cell proteomics data”</p>
+
+<h2 id="fair-data-for-life-sciences-research">FAIR Data for Life Sciences Research</h2>
+
+<p>18 mai 2022</p>
+
+<p>Brussels</p>
+
+<p>Elixir Belgium</p>
+
+<h2 id="ib2-research-day-2021">IB2 Research Day 2021</h2>
+
+<p>3 décembre 2021</p>
+
+<p>Brussels (ULB/VUB)</p>
+
+<p>Interuniversity Institute of Bioinformatics in Brussels</p>
+
+<p>Presented: “Computational challenges in mass spectrometry-based single-cell proteomics”</p>
+
+<h2 id="biocasia2021">BiocAsia2021</h2>
+
+<p>Asian Bioconductor conference 2021</p>
+
+<p>November 4th 2021</p>
+
+<p>Online</p>
+
+<p>Presented workshop: Reproducing a single-cell proteomics data analysis
+using QFeatures and scp</p>
+
+<h2 id="scp2021">SCP2021</h2>
+
+<p>Single-cell proteomics meetings 2021</p>
+
+<p>August 16-17 2021</p>
+
+<p>Online</p>
+
+<p>Slavov Lab, Northeastern University</p>
+
+<p>Co-presented workshop with Laurent: “Mass Spectrometry-Based
+Single-Cell Proteomics Data Analysis”</p>
+
+<h2 id="bioc2021">Bioc2021</h2>
+
+<p>Bioconductor conference 2021</p>
+
+<p>4-6 août 2021</p>
+
+<p>Online</p>
+
+<p>Bioconductor</p>
+
+<p>Presented workshop: Reproducing a single-cell proteomics data analysis
+using QFeatures and scp</p>
+
+<h2 id="de-duve-phd-students-day-2021">De Duve PhD students day 2021</h2>
+
+<p>26 mai 2021</p>
+
+<p>Online</p>
+
+<p>de Duve Institute</p>
+
+<p>Presented poster: “Development of computational tools for the analysis
+of mass spectrometry-based single-cell proteomics data”</p>
+
+<p>Won the best poster award</p>
+
+<h2 id="workshop-effective-visual-communication-of-science">Workshop: Effective Visual Communication of Science</h2>
+
+<p>1-2 February 2022</p>
+
+<p>Online - UCLouvain</p>
+
+<p>Jernej Zupanc (Seyens)</p>
+
+<h2 id="smcs-training-experimental-design-with-jmp">SMCS training: Experimental design with JMP</h2>
+
+<p>11, 12, 14 Janvier 2021</p>
+
+<p>Online</p>
+
+<p>Catherine Rasse</p>
+
+<h2 id="eurobioc2020-european-bioconductor-conference-2020">EuroBioc2020: European Bioconductor conference 2020</h2>
+
+<p>14-18 Décembre 2020</p>
+
+<p>Online</p>
+
+<p>Bioconductor</p>
+
+<p>Presented: “A standardized computational framework for the analysis of
+mass spectrometry-based single-cell proteomics data”</p>
+
+<h2 id="rsg-symposium">RSG symposium</h2>
+
+<p>December 4th 2020</p>
+
+<p>Online</p>
+
+<p>RSG Belgium</p>
+
+<p>Presented: “A standardized computational framework for the
+analysis of mass spectrometry-based single-cell proteomics data”</p>
+
+<h2 id="rsdd2020-research-software-developers-day">RSDD2020: research software developers day</h2>
+
+<p>03 décembre 2020</p>
+
+<p>Online</p>
+
+<p>Elixir Belgium</p>
+
+<h2 id="smcs-training-introduction-aux-modèles-mixtes-avec-r">SMCS training: Introduction aux modèles mixtes avec R</h2>
+
+<p>23-26 Novembre 2020</p>
+
+<p>Online</p>
+
+<p>Alain Guillet</p>
+
+<h2 id="scb2020">SCB2020</h2>
+
+<p>Single-cell Biology 2020</p>
+
+<p>13-14 Décembre 2020</p>
+
+<p>Online</p>
+
+<p>Welcome Genome Campus</p>
+
+<p>Presented poster: “Standardised and reproducible analysis of mass
+spectrometry-based single-cell proteomics data”</p>
+
+<h2 id="scp2020">SCP2020</h2>
+
+<p>Single-Cell Proteomics meetings 2020</p>
+
+<p>18-19 Août 2020</p>
+
+<p>Online</p>
+
+<p>Slavov Lab, Northeastern university</p>
+
+<p>Co-presented with Laurent: “Standardised and reproducible analysis of
+mass spectrometry-based single-cell proteomics data”</p>
+
+<h2 id="abls20">ABLS20</h2>
+
+<p>Applied Bioinformatics in Life Sciences 2020</p>
+
+<p>13-14 février 2020</p>
+
+<p>Leuven</p>
+
+<p>VIBconferences</p>
+
+<p>Presented a poster: Towards a standardized workflow for mass
+spectrometry-based single-cell proteomics</p>
+
+<h2 id="smcs-training-basic-concepts-and-practical-applications-of-bayesian-statistics-with-r">SMCS training: Basic concepts and practical applications of Bayesian statistics with R</h2>
+
+<p>20-21 janvier</p>
+
+<p>Bruxelles (UCLouvain)</p>
+
+<p>Vincent Bremhorst</p>
+
+<h2 id="smcs-training-r-object-oriented-programming-and-package-development">SMCS training: R object-oriented programming and package development</h2>
+
+<p>10/10/2019</p>
+
+<p>Bruxelles (UCLouvain)</p>
+
+<p>Laurent Gatto</p>
+
+<h2 id="eurobioc2019">EuroBioc2019</h2>
+
+<p>European Bioconductor conference 2019</p>
+
+<p>9-11 Décembre 2019</p>
+
+<p>Bruxelles (UCLouvain)</p>
+
+<p>Bioconductor</p>
+
+<p>Presented a poster: “scpdata: a data package for single-cell proteomics”</p>]]></content><author><name>Christophe Vanderaa</name></author><category term="research" /><category term="conference" /><summary type="html"><![CDATA[In this post, I list all the conferences I have attended and, for some, the material I have presented.]]></summary></entry></feed>

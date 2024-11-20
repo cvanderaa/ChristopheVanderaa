@@ -1,40 +1,34 @@
 ---
-layout: home
-author: true
+layout: splash
 permalink: /
+hidden: true
+title: Hi, I'm Chris
+header:
+  overlay_color: "#5e616c"
+  overlay_image: #/assets/
+  actions:
+    - label: "<i class='far fa-user'></i> About me"
+      url: "/about/"
+excerpt: >-
+  I'm a passionate scientist with a focus on combining biology,
+  programming, and statistics. I'm driven by open-source research and reproducible data analysis.
+feature_row:
+  - image_path: /assets/images/research.png
+    alt: "Research"
+    title: "Research"
+    excerpt: >-
+      Get a snapshot of my scientific output.
+    url: "/research/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
+  - image_path: /assets/images/blog.png
+    alt: "Blog"
+    title: "Blog"
+    excerpt: >-
+      Personal thoughts, experiments and projects.
+    url: "/blog/"
+    btn_class: "btn--primary"
+    btn_label: "Learn more"
 ---
 
-
-
-What 
-
-why 
-
-who
-
-
-{% if paginator.total_pages > 1 %}
-<div class="pagination">
-  {% if paginator.previous_page %}
-    <a href="{{ paginator.previous_page_path | relative_url }}">&laquo; Prev</a>
-  {% else %}
-    <span>&laquo; Prev</span>
-  {% endif %}
-
-  {% for page in (1..paginator.total_pages) %}
-    {% if page == paginator.page %}
-      <em>{{ page }}</em>
-    {% elsif page == 1 %}
-      <a href="{{ '/' | relative_url }}">{{ page }}</a>
-    {% else %}
-      <a href="{{ site.paginate_path | relative_url | replace: ':num', page }}">{{ page }}</a>
-    {% endif %}
-  {% endfor %}
-
-  {% if paginator.next_page %}
-    <a href="{{ paginator.next_page_path | relative_url }}">Next &raquo;</a>
-  {% else %}
-    <span>Next &raquo;</span>
-  {% endif %}
-</div>
-{% endif %}
+{% include feature_row %}

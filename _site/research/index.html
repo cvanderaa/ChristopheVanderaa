@@ -1,0 +1,637 @@
+<!doctype html>
+<!--
+  Minimal Mistakes Jekyll Theme 4.24.0 by Michael Rose
+  Copyright 2013-2020 Michael Rose - mademistakes.com | @mmistakes
+  Free for personal and commercial use under the MIT license
+  https://github.com/mmistakes/minimal-mistakes/blob/master/LICENSE
+-->
+<html lang="en" class="no-js">
+  <head>
+    <meta charset="utf-8">
+
+<!-- begin _includes/seo.html --><title>My research - Christophe Vanderaa</title>
+<meta name="description" content="Christophe Vanderaa’s personal websites.">
+
+
+  <meta name="author" content="Christophe Vanderaa">
+  
+
+
+<meta property="og:type" content="website">
+<meta property="og:locale" content="en">
+<meta property="og:site_name" content="Christophe Vanderaa">
+<meta property="og:title" content="My research">
+<meta property="og:url" content="http://localhost:4000/research/">
+
+
+  <meta property="og:description" content="Christophe Vanderaa’s personal websites.">
+
+
+
+
+
+
+
+
+
+
+
+
+<link rel="canonical" href="http://localhost:4000/research/">
+
+
+
+
+<script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    
+      "@type": "Person",
+      "name": "Christophe Vanderaa",
+      "url": "http://localhost:4000/"
+    
+  }
+</script>
+
+
+
+
+
+
+
+<!-- end _includes/seo.html -->
+
+
+
+
+<!-- https://t.co/dKP3o1e -->
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<script>
+  document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + ' js ';
+</script>
+
+<!-- For all browsers -->
+<link rel="stylesheet" href="/assets/css/main.css">
+<link rel="preload" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+<noscript><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5/css/all.min.css"></noscript>
+
+
+
+    <!-- start custom head snippets -->
+
+<!-- insert favicons. use https://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+  </head>
+
+  <body class="layout--single">
+    <nav class="skip-links">
+  <ul>
+    <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+    <!--[if lt IE 9]>
+<div class="notice--danger align-center" style="margin: 0;">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience.</div>
+<![endif]-->
+
+    
+
+<div class="masthead">
+  <div class="masthead__inner-wrap">
+    <div class="masthead__menu">
+      <nav id="site-nav" class="greedy-nav">
+        
+        <a class="site-title" href="/">
+          Christophe Vanderaa
+          
+        </a>
+        <ul class="visible-links"><li class="masthead__menu-item">
+              <a href="/about/">About me</a>
+            </li><li class="masthead__menu-item">
+              <a href="/research/">Research</a>
+            </li><li class="masthead__menu-item">
+              <a href="/blog/">Blog</a>
+            </li><li class="masthead__menu-item">
+              <a href="/about/#resume">CV</a>
+            </li></ul>
+        
+        <button class="search__toggle" type="button">
+          <span class="visually-hidden">Toggle search</span>
+          <i class="fas fa-search"></i>
+        </button>
+        
+        <button class="greedy-nav__toggle hidden" type="button">
+          <span class="visually-hidden">Toggle menu</span>
+          <div class="navicon"></div>
+        </button>
+        <ul class="hidden-links hidden"></ul>
+      </nav>
+    </div>
+  </div>
+</div>
+
+
+    <div class="initial-content">
+      
+
+
+
+<div id="main" role="main">
+  
+
+
+  <article class="page" itemscope itemtype="https://schema.org/CreativeWork">
+    <meta itemprop="headline" content="My research">
+    
+    
+    
+
+    <div class="page__inner-wrap">
+      
+        <header>
+          <h1 id="page-title" class="page__title" itemprop="headline">My research
+</h1>
+          
+
+
+        </header>
+      
+
+      <section class="page__content" itemprop="text">
+        
+        <p><em>(Updated on October 2024)</em></p>
+
+<p>My research mainly focuses on the development of tools and practices
+to analyze mass spectrometry-based single-cell proteomics (SCP) data.
+I achieved several milestones during my PhD at Prof. Laurent Gatto’s
+lab.</p>
+
+<p>I established the first standardized data structure for mass
+spectrometry-based single-cell proteomics with the development of
+<code class="language-plaintext highlighter-rouge">scp</code>, an R/Bioconductor package for storing and processing
+single-cell proteomics data. I am the head maintainer of the sofware
+which cumulates over 8500 downloads. In parallel, I actively
+contributed and still am an official maintainer of <code class="language-plaintext highlighter-rouge">QFeatures</code>, an
+R/Bioconductor package to store and process MS-based quantitative data
+(cumulating over 58000 downloads). You may read more in</p>
+
+<blockquote>
+  <p>Vanderaa &amp; Gatto (2021). Replication of single-cell proteomics data
+reveals important computational challenges. In Expert Review of
+Proteomics (Vol. 18, Issue 10, pp. 835–843). Cited by 33.</p>
+</blockquote>
+
+<p>Next, I created a database of curated data sets that are ready for
+analysis. The aim of the database is to guide computational
+development based on real data. I have published the software as
+another R/Bioconductor package, <code class="language-plaintext highlighter-rouge">scpdata</code>. Currently, the database
+contains 29 data sets and cumulates over 4000 downloads. You can read
+more in</p>
+
+<blockquote>
+  <p>Vanderaa &amp; Gatto (2023). The Current State of Single‐Cell Proteomics
+Data Analysis. In Current Protocols (Vol. 3, Issue 1). Cited by 14.</p>
+</blockquote>
+
+<p>Thanks to <code class="language-plaintext highlighter-rouge">scp</code> and <code class="language-plaintext highlighter-rouge">scpdata</code>, I replicated various SCP data analyses.
+I report these replication efforts in my <code class="language-plaintext highlighter-rouge">SCP.replication</code> website.
+Replicating the analysis offered me many benefits. First, I repurposed
+these replications efforts as didactic material, increasing the
+visibility of my software. Second, replicating data analyses increases
+the trust in published results or to highlight potential flaws,
+effectively moving the field forward. It allowed me to grow an
+international reputation which materialized in an important
+collaboration among pioneers of the field, read more in</p>
+
+<blockquote>
+  <p>Gatto, Aebersold, Cox, Demichev, Derks, Emmott, Franks, Ivanov,
+Kelly, Khoury, Leduc, MacCoss, Nemes, Perlman, Petelski, Rose,
+Schoof, Van Eyk, Vanderaa, Yates 3rd, Slavov (2023). Initial
+recommendations for performing, benchmarking and reporting
+single-cell proteomics experiments. In Nature Methods (Vol. 20,
+Issue 3, pp. 375–386). Cited by 101.</p>
+</blockquote>
+
+<p>A last benefit from replicating analyses was to pinpoint the key
+challenges of SCP data analysis and the current bottlenecks. One major
+bottleneck I identified was the high prevalence of missing values. You
+can find my recommendation on how to handle missing values in SCP data
+in</p>
+
+<blockquote>
+  <p>Vanderaa &amp; Gatto (2023). Revisiting the Thorny Issue of Missing
+Values in Single-Cell Proteomics. In Journal of Proteome Research
+(Vol. 22, Issue 9, pp. 2775–2784). Cited by 15.</p>
+</blockquote>
+
+<p>Finally, my main achievement was the developement of scplainer, a
+principled approach that lays the ground for rigourous analysis of SCP
+data. Since the publication of the preprint, it already initiated
+several collaborations across the world. To read more</p>
+
+<blockquote>
+  <p>Vanderaa &amp; Gatto (2024). Scplainer: Using Linear Models to
+Understand Mass Spectrometry-Based Single-Cell Proteomics Data.
+bioRxiv (submitted, not peer-reviewed).</p>
+</blockquote>
+
+<p>Thanks to Prof. Laurent Gatto’s mentorship, I developed a strong
+commitment to open and reproducible science. Prof. Laurent Gatto is
+internationally renowned for his exemplary research practices
+concerning open and reproducible science. All my projects and software
+packages are available on GitHub (https://github.com/cvanderaa and
+https://github.com/UCLouvain-CBIO/) and my analyses are reproducible
+through Docker images (https://hub.docker.com/u/cvanderaa, see also
+https://uclouvain-cbio.github.io/SCP.replication/).</p>
+
+<p>The next goal for me is to unlock SCP for biomedical research as my
+ultimate goal is to apply my research to help answering tangible
+health-related questions. Therefore, I joined the lab of Prof. Lieven
+Clement to extend the current tools. I will solve the key data
+analysis bottlenecks of current workflows by (1) identifying unknown
+source of variation through dimension reduction while accounting for
+technical effects and the high prevalence of missing values; (2)
+addressing the hierarchical correlation structure of multiple cells
+within each sample in multi-sample SCP data; and (3) revolutionize SCP
+data analysis by building tools to infer on differences that go beyond
+the mean, i.e. for differential variance, skewness, multimodality and
+presence/absence without relying on harmful imputation strategies.
+Thanks to Prof. Lieven Clement’s mentorship, I plan to perfect my
+statistical skills and acquire rigourous method benchmarking
+practices.</p>
+
+<h2 id="scientific-output">Scientific output</h2>
+
+<h4 id="publication">Publication</h4>
+
+<p>I contributed to 16 articles and 5 software packages. You can find the
+comprehensive list <a href="/research/#list-of-publications">here</a>.</p>
+
+<h4 id="scientific-meetings">Scientific meetings</h4>
+
+<ul>
+  <li>I was an invited speaker at the European symposium on single-cell
+proteomics 2024.</li>
+  <li>I presented several short talks: SCP2020, RSG symposium 2020,
+Eurobioc2020, IB2 research day 2021, EuroBioc2023.</li>
+  <li>I presented several workshops providing hands-on tutorials on my
+software: Bioc2021, SCP2021, BiocAsia2021. I’m also invited to
+provide workshops in Strasbourg and Liverpool in 2025.</li>
+  <li>I have presented up to 7 posters during different conferences.</li>
+</ul>
+
+<h4 id="supervision">Supervision</h4>
+
+<p>I enjoyed supervising the following students:</p>
+
+<ul>
+  <li>Samuel Grégoire: Master student in Biomedical Sciences</li>
+  <li>Charlotte Léonard: Master student in Applied Mathematics</li>
+  <li>Théo Christopher Borremans: bachelor student in Biology</li>
+  <li>Léopold Guyot: Master student in Bioinformatics</li>
+</ul>
+
+<h4 id="review-activities">Review activities</h4>
+
+<p>I reviewed one article for Nature Communications (not published) and
+co-reviewed 3 articles with Prof. Gatto:</p>
+
+<ul>
+  <li>Kong, Weijia, Harvard Wai Hann Hui, Hui Peng, and Wilson Wen Bin
+Goh. 2022. “Dealing with Missing Values in Proteomics Data.”
+Proteomics 22 (23-24): e2200092.</li>
+  <li>Li, Wei, Fan Yang, Fang Wang, Yu Rong, Bingzhe Wu, Han Zhang, and
+Jianhua Yao. 2023. “A Versatile Deep Graph Contrastive Learning
+Framework for Single-Cell Proteomics Embedding.” bioRxiv.</li>
+  <li>Wang, Fang, Chunpu Liu, Jiawei Li, Fan Yang, Jiangning Song, Tianyi
+Zang, Jianhua Yao, and Guohua Wang. 2023. “SPDB: A Comprehensive
+Resource and Knowledgebase for Proteomic Data at the Single-Cell
+Resolution.” Nucleic Acids Research.</li>
+</ul>
+
+<!--
+#### Networking
+
+- UGent/VIB
+- Bioconductor
+- SCP
+- BePA
+
+- I regularly volunteered as chairperson during the European
+  Bioconductor conferences.
+- As vice-president of the regional student group (RSG) belgium, I
+  organized the RSG Beerformatics 2021 event, entitled "A Dive Into
+  Bioinformatics Startups". The event attracted over 30 early career
+  researchers from 5 different universities.
+- President de Duve PhD student society (2022). This local PhD student
+  group connects early career researchers within the de Duve institute
+  through team building events and scientific meetings.
+
+-->
+
+<h4 id="scientific-awards-and-research-funding">Scientific awards and research funding</h4>
+
+<ul>
+  <li>ASP-FNRS fellowship (graded A+: outstanding, 2019)</li>
+  <li>EURASIP, best poster award,  2018, Tensor-based Signal Processing</li>
+  <li>Best poster award during the de Duve PhD day (2020).</li>
+</ul>
+
+<h2 id="list-of-software">List of software</h2>
+
+<h4 id="software-i-still-maintain">Software I still maintain</h4>
+
+<ul>
+  <li>
+    <p>Vanderaa C, Gatto L (2024). <em>scp: Mass Spectrometry-Based
+Single-Cell Proteomics Data Analysis</em>. R package version 1.15.2,
+<a href="https://www.bioconductor.org/packages/release/bioc/html/scp.html">https://www.bioconductor.org/packages/release/bioc/html/scp.html</a>.</p>
+  </li>
+  <li>
+    <p>Vanderaa C, Gatto L, Ayar E, Grégoire S (2024). <em>scpdata:
+Single-Cell Proteomics Data Package</em>. R package version 1.13.1,
+<a href="https://www.bioconductor.org/packages/release/data/experiment/html/scpdata.html">https://www.bioconductor.org/packages/release/data/experiment/html/scpdata.html</a>.</p>
+  </li>
+  <li>
+    <p>Gatto L, Vanderaa C (2024). <em>QFeatures: Quantitative features for
+mass spectrometry data</em>. R package version 1.15.2,
+<a href="https://www.bioconductor.org/packages/release/bioc/html/QFeatures.html">https://www.bioconductor.org/packages/release/bioc/html/QFeatures.html</a>.</p>
+  </li>
+</ul>
+
+<h4 id="software-i-contributed">Software I contributed</h4>
+
+<ul>
+  <li>
+    <p>Ramos M, Argelaguet R, Abadi A, Righelli D, Vanderaa C, EckenrodeK,
+Geistlinger L, Waldron L (2024). <em>SingleCellMultiModal: Integrating
+Multi-modal Single Cell Experiment datasets</em>. R package version
+1.19.0,
+<a href="https://bioconductor.org/packages/release/data/experiment/html/SingleCellMultiModal.html">https://bioconductor.org/packages/release/data/experiment/html/SingleCellMultiModal.html</a>.</p>
+  </li>
+  <li>
+    <p>Wenseleers T, Vanderaa C (2022). <em>export: Streamlined Export of
+Graphs and Data Tables</em>. R package version 0.3.0,
+<a href="https://CRAN.R-project.org/package=export">https://CRAN.R-project.org/package=export</a>.</p>
+  </li>
+</ul>
+
+<h2 id="list-of-publications">List of publications</h2>
+
+<h4 id="first-author">First author</h4>
+
+<!-- Note to self. Citations were fromatted using the "Taylor &
+Francis - AMA" style -->
+
+<ul>
+  <li>
+    <p>Vanderaa C, Gatto L. scplainer: using linear models to understand
+mass spectrometry-based single-cell proteomics data. bioRxiv.
+Published online January 10, 2024:2023.12.14.571792.
+doi:10.1101/2023.12.14.571792</p>
+  </li>
+  <li>
+    <p>Thesis: Vanderaa C. A Principled Approach and Standardised Software
+for Mass Spectrometry-Based Single-Cell Proteomics Data Analysis.
+UCL-Université Catholique de Louvain; 2024.</p>
+  </li>
+  <li>
+    <p>Vanderaa C, Gatto L. Revisiting the Thorny Issue of Missing Values
+in Single-Cell Proteomics. J Proteome Res. 2023;22(9):2775-2784.</p>
+  </li>
+  <li>
+    <p>Vanderaa C, Gatto L. The Current State of Single-Cell Proteomics
+Data Analysis. Curr Protoc. 2023;3(1):e658.</p>
+  </li>
+  <li>
+    <p>Vanderaa C, Gatto L. Replication of single-cell proteomics data
+reveals important computational challenges. Expert Rev Proteomics.
+2021;18(10):835-843.</p>
+  </li>
+</ul>
+
+<h4 id="co-author">Co-author</h4>
+
+<ul>
+  <li>
+    <p>Dzialo MC, Arumugam S, Piampongsant S, Cool L, Vanderaa C,
+Herrera-Malaver B, et al. Drosophila suzukii and Drosophila
+melanogaster prefer distinct microbial and plant aroma compounds in
+a complex fermented matrix. iScience. 2024;27(11):111141.</p>
+  </li>
+  <li>
+    <p>Vandenbulcke S, Vanderaa C, Crook O, Martens L, Clement L.
+msqrob2TMT: robust linear mixed models for inferring differential
+abundant proteins in labelled experiments with arbitrarily complex
+design. bioRxiv. Published online March 29, 2024:2024.03.29.587218.
+doi:10.1101/2024.03.29.587218</p>
+  </li>
+  <li>
+    <p>Schreurs M, Piampongsant S, Roncoroni M, Cool L, Herrera-Malaver B,
+Vanderaa C, et al. Predicting and improving complex beer flavor
+through machine learning. Nat Commun. 2024;15(1):2368.</p>
+  </li>
+  <li>
+    <p>Grégoire S, Vanderaa C, Ruys SPD, Mazzucchelli G, Kune C, Vertommen
+D, et al. Mass Spectrometry Based Single Cell Proteomics. Springer
+US; 2023.</p>
+  </li>
+  <li>
+    <p>Eckenrode KB, Righelli D, Ramos M, Argelaguet R, Vanderaa C,
+Geistlinger L, et al. Curated single cell multimodal landmark
+datasets for R/Bioconductor. PLoS Comput Biol. 2023;19(8):e1011324.</p>
+  </li>
+  <li>
+    <p>Gannoun L, De Schrevel C, Belle M, Dauguet N, Achouri Y, Loriot A,
+et al. Axon guidance genes control hepatic artery development.
+Development. 2023;150(16). doi:10.1242/dev.201642</p>
+  </li>
+  <li>
+    <p>Gatto L, Aebersold R, Cox J, Demichev V, Derks J, Emmott E, et al.
+Initial recommendations for performing, benchmarking and reporting
+single-cell proteomics experiments. Nat Methods. 2023;20(3):375-386.</p>
+  </li>
+  <li>
+    <p>Lecomte S, Devreux J, de Streel G, van Baren N, Havelange V,
+Schröder D, et al. Therapeutic activity of GARP:TGF-β1 blockade in
+murine primary myelofibrosis. Blood. 2023;141(5):490-502.</p>
+  </li>
+  <li>
+    <p>Moulis M, Runser SVM, Glorieux L, Dauguet N, Vanderaa C, Gatto L, et
+al. Identification and implication of tissue-enriched ligands in
+epithelial-endothelial crosstalk during pancreas development. Sci
+Rep. 2022;12(1):12498.</p>
+  </li>
+  <li>
+    <p>Goelen T, Sobhy IS, Vanderaa C, Wäckers F, Rediers H, Wenseleers T,
+et al. Bacterial phylogeny predicts volatile organic compound
+composition and olfactory response of an aphid parasitoid. Oikos.
+2020;129(9):1415-1428.</p>
+  </li>
+  <li>
+    <p>Goelen T, Sobhy IS, Vanderaa C, Boer JG, Delvigne F, Francis F, et
+al. Volatiles of bacteria associated with parasitoid habitats elicit
+distinct olfactory responses in an aphid parasitoid and its
+hyperparasitoid. Funct Ecol. 2020;34(2):507-520.</p>
+  </li>
+  <li>
+    <p>Liénart S, Merceron R, Vanderaa C, Lambert F, Colau D, Stockis J, et
+al. Structural basis of latent TGF-β1 presentation and activation by
+GARP on human regulatory T cells. Science. 2018;362(6417):952-956.</p>
+  </li>
+</ul>
+
+<p><br /></p>
+
+<h2 id="related-posts">Related posts</h2>
+
+<div class="grid__item">
+  <article class="archive__item" itemscope="" itemtype="https://schema.org/CreativeWork">
+    
+      <div class="archive__item-teaser">
+        <img src="/assets/images/avatar.jpg" alt="" />
+      </div>
+    
+    <h2 class="archive__item-title no_toc" itemprop="headline">
+      
+        <a href="/2024/05/03/attending-conferences.html" rel="permalink">Attending conferences
+</a>
+      
+    </h2>
+    
+
+  <p class="page__meta">
+    
+      
+      <span class="page__meta-date">
+        <i class="far fa-fw fa-calendar-alt" aria-hidden="true"></i>
+        
+        <time datetime="2024-05-03T17:34:29+02:00">2024-05-03</time>
+      </span>
+    
+
+    <span class="page__meta-sep"></span>
+
+    
+      
+      
+
+      <span class="page__meta-readtime">
+        <i class="far fa-fw fa-clock" aria-hidden="true"></i>
+        
+          2 minute read
+        
+      </span>
+    
+  </p>
+
+
+    <p class="archive__item-excerpt" itemprop="description">In this post, I list all the conferences I have attended and, for
+some, the material I have presented.
+
+</p>
+  </article>
+</div>
+
+
+        
+      </section>
+
+      <footer class="page__meta">
+        
+        
+
+
+        
+
+
+      </footer>
+
+      
+
+      
+    </div>
+
+    
+  </article>
+
+  
+  
+</div>
+
+    </div>
+
+    
+      <div class="search-content">
+        <div class="search-content__inner-wrap"><form class="search-content__form" onkeydown="return event.key != 'Enter';">
+    <label class="sr-only" for="search">
+      Enter your search term...
+    </label>
+    <input type="search" id="search" class="search-input" tabindex="-1" placeholder="Enter your search term..." />
+  </form>
+  <div id="results" class="results"></div></div>
+
+      </div>
+    
+
+    <div id="footer" class="page__footer">
+      <footer>
+        <!-- start custom footer snippets -->
+
+<!-- end custom footer snippets -->
+        <div class="page__footer-follow">
+  <ul class="social-icons">
+    
+
+    
+      
+        
+          <li><a href="https://twitter.com/c_vanderaa" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-twitter-square" aria-hidden="true"></i> Twitter</a></li>
+        
+      
+        
+          <li><a href="https://github.com/cvanderaa" rel="nofollow noopener noreferrer"><i class="fab fa-fw fa-github" aria-hidden="true"></i> GitHub</a></li>
+        
+      
+        
+          <li><a href="https://www.linkedin.com/in/cvanderaa/" rel="nofollow noopener noreferrer"><i class="fab fa-linkedin-in" aria-hidden="true"></i> LinkedIn</a></li>
+        
+      
+        
+          <li><a href="https://fediscience.org/@cvanderaa" rel="nofollow noopener noreferrer"><i class="fab fa-mastodon" aria-hidden="true"></i> Mastodon</a></li>
+        
+      
+    
+
+    
+  </ul>
+</div>
+
+<div class="page__footer-copyright">&copy; 2024 Christophe Vanderaa. Powered by <a href="https://jekyllrb.com" rel="nofollow">Jekyll</a> &amp; <a href="https://mademistakes.com/work/minimal-mistakes-jekyll-theme/" rel="nofollow">Minimal Mistakes</a>.</div>
+
+      </footer>
+    </div>
+
+    
+  <script src="/assets/js/main.min.js"></script>
+
+
+
+
+<script src="/assets/js/lunr/lunr.min.js"></script>
+<script src="/assets/js/lunr/lunr-store.js"></script>
+<script src="/assets/js/lunr/lunr-en.js"></script>
+
+
+
+
+
+
+
+  </body>
+</html>

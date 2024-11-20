@@ -1,9 +1,10 @@
 main:
-  - title: "About"
+  - title: "About me"
     url: /about/
-  - title: "Portfolio"
-    url: /portfolio/
-  - title: "Posts"
-    url: /year-archive/
-  - title: "Tags"
-    url: /tags/
+  - title: "Research"
+    url: /research/
+  - title: "Blog"
+    url: /blog/
+  - title: "CV"
+    url: /about/#resume
+
