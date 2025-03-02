@@ -82,9 +82,8 @@ locale: en
 timezone: Europe/Brussels
 
 # Use the minimal-mistakes theme
-theme: minimal-mistakes-jekyll
+remote_theme: "mmistakes/minimal-mistakes"
 minimal_mistakes_skin: "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
-remote_theme: benbalter/retlab # For GitHub deployment
 
 # Default post params
 defaults:
@@ -147,8 +146,18 @@ lunr:
 #   - https://code.jquery.com/jquery-3.2.1.min.js
 #   - /assets/js/your-custom-head-script.js
 
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
 # Include when processing.
-include: ["_pages"]
+include:
+  - _pages
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
