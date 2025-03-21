@@ -5,7 +5,7 @@ permalink: /research/
 entries_layout: grid
 ---
 
-*(Updated on October 2024)*
+*(Updated on March 2025)*
 
 My research mainly focuses on the development of tools and practices
 to analyze mass spectrometry-based single-cell proteomics (SCP) data.
@@ -96,15 +96,11 @@ Thanks to Prof. Lieven Clement's mentorship, I plan to perfect my
 statistical skills and acquire rigourous method benchmarking
 practices.
 
-## Scientific output
+## Scientific meetings
 
-#### Publication
-
-I contributed to 16 articles and 5 software packages. You can find the
-comprehensive list [here]({% link _pages/research.md
-%}#list-of-publications).
-
-#### Scientific meetings
+You can find a [comprehensive list]({% link
+_posts/2024-05-03-attending-conferences.md%}) of my attendence to
+different scientific meetings. Below are some highlights:
 
 - I was an invited speaker at the European symposium on single-cell
   proteomics 2024.
@@ -115,7 +111,7 @@ comprehensive list [here]({% link _pages/research.md
   provide workshops in Strasbourg and Liverpool in 2025.
 - I have presented up to 7 posters during different conferences.
 
-#### Supervision
+## Supervision
 
 I enjoyed supervising the following students:
 
@@ -124,43 +120,7 @@ I enjoyed supervising the following students:
 - Théo Christopher Borremans: bachelor student in Biology
 - Léopold Guyot: Master student in Bioinformatics
 
-#### Review activities
-
-I reviewed one article for Nature Communications (not published) and
-co-reviewed 3 articles with Prof. Gatto:
-
-- Kong, Weijia, Harvard Wai Hann Hui, Hui Peng, and Wilson Wen Bin
-  Goh. 2022. “Dealing with Missing Values in Proteomics Data.”
-  Proteomics 22 (23-24): e2200092.
-- Li, Wei, Fan Yang, Fang Wang, Yu Rong, Bingzhe Wu, Han Zhang, and
-  Jianhua Yao. 2023. “A Versatile Deep Graph Contrastive Learning
-  Framework for Single-Cell Proteomics Embedding.” bioRxiv.
-- Wang, Fang, Chunpu Liu, Jiawei Li, Fan Yang, Jiangning Song, Tianyi
-  Zang, Jianhua Yao, and Guohua Wang. 2023. “SPDB: A Comprehensive
-  Resource and Knowledgebase for Proteomic Data at the Single-Cell
-  Resolution.” Nucleic Acids Research.
-
-<!--
-#### Networking
-
-- UGent/VIB
-- Bioconductor
-- SCP
-- BePA
-
-- I regularly volunteered as chairperson during the European
-  Bioconductor conferences.
-- As vice-president of the regional student group (RSG) belgium, I
-  organized the RSG Beerformatics 2021 event, entitled "A Dive Into
-  Bioinformatics Startups". The event attracted over 30 early career
-  researchers from 5 different universities.
-- President de Duve PhD student society (2022). This local PhD student
-  group connects early career researchers within the de Duve institute
-  through team building events and scientific meetings.
-
--->
-
-#### Scientific awards and research funding
+## Scientific awards and research funding
 
 - ASP-FNRS fellowship (graded A+: outstanding, 2019)
 - EURASIP, best poster award,  2018, Tensor-based Signal Processing
@@ -194,12 +154,22 @@ co-reviewed 3 articles with Prof. Gatto:
   Graphs and Data Tables_. R package version 0.3.0,
   <https://CRAN.R-project.org/package=export>.
 
+#### Reviewing software
+
+I am an official Bioconductor reviewer. 
+
 ## List of publications
 
 #### First author
 
 <!-- Note to self. Citations were fromatted using the "Taylor &
 Francis - AMA" style -->
+
+- Vandenbulcke* S, Vanderaa* C, Crook O, Martens L, Clement L.
+  msqrob2TMT: robust linear mixed models for inferring differential
+  abundant proteins in labelled experiments with arbitrarily complex
+  design. bioRxiv. Published online March 29, 2024:2024.03.29.587218.
+  doi:10.1101/2024.03.29.587218
 
 - Vanderaa C, Gatto L. scplainer: using linear models to understand
   mass spectrometry-based single-cell proteomics data. bioRxiv.
@@ -226,12 +196,6 @@ Francis - AMA" style -->
   Herrera-Malaver B, et al. Drosophila suzukii and Drosophila
   melanogaster prefer distinct microbial and plant aroma compounds in
   a complex fermented matrix. iScience. 2024;27(11):111141.
-
-- Vandenbulcke S, Vanderaa C, Crook O, Martens L, Clement L.
-  msqrob2TMT: robust linear mixed models for inferring differential
-  abundant proteins in labelled experiments with arbitrarily complex
-  design. bioRxiv. Published online March 29, 2024:2024.03.29.587218.
-  doi:10.1101/2024.03.29.587218
 
 - Schreurs M, Piampongsant S, Roncoroni M, Cool L, Herrera-Malaver B,
   Vanderaa C, et al. Predicting and improving complex beer flavor
@@ -275,6 +239,26 @@ Francis - AMA" style -->
 - Liénart S, Merceron R, Vanderaa C, Lambert F, Colau D, Stockis J, et
   al. Structural basis of latent TGF-β1 presentation and activation by
   GARP on human regulatory T cells. Science. 2018;362(6417):952-956.
+
+#### Reviewing papers
+
+I reviewed the following articles: 
+
+- One article for Nature Communications (not published)
+- One article for Nature Methods (under revision)
+- One article for Bioinformatics (under revision)
+- (co-revision with Laurent) Kong, Weijia, Harvard Wai Hann Hui, Hui
+  Peng, and Wilson Wen Bin Goh. 2022. “Dealing with Missing Values in
+  Proteomics Data.” Proteomics 22 (23-24): e2200092.
+- (co-revision with Laurent) Li, Wei, Fan Yang, Fang Wang, Yu Rong,
+  Bingzhe Wu, Han Zhang, and Jianhua Yao. 2023. “A Versatile Deep
+  Graph Contrastive Learning Framework for Single-Cell Proteomics
+  Embedding.” bioRxiv.
+- (co-revision with Laurent) Wang, Fang, Chunpu Liu, Jiawei Li, Fan
+  Yang, Jiangning Song, Tianyi Zang, Jianhua Yao, and Guohua
+  Wang.2023. “SPDB: A Comprehensive Resource and Knowledgebase for
+  Proteomic Data at the Single-Cell Resolution.” Nucleic Acids
+  Research.
 
 <br>
 

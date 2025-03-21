@@ -2,17 +2,40 @@
 layout: single
 title:  "Attending conferences"
 date:   2024-05-03 16:34:29 +0100
-tags: ["research", "conference"]
+tags: ["research"]
 ---
 
 In this post, I list all the conferences I have attended and, for
 some, the material I have presented.
 
+## EuBIC Developers Meeting 2025
+
+EuBIC-MS Developers Meeting 2025
+
+February 2-7, 2025
+
+Abbey of Neustift, Vahrn 
+
+European Bioinformatics Community for mass sprectrometry (EuBIC-MS)
+
+## BePAc24
+
+Belgian Proteomics association conference 2025
+
+December 5-6, 2024
+
+Ghent
+
+Belgian Proteomics Association
+
+Short talk: "msqrob2SCP: a flexible workflow for addressing the
+hierarchical correlation in SCP data"
+
 ## ESCP2024
 
-European Bioconductor conference 2023
+European Single-cell proteomics 2024
 
-August 27, 2023
+August 27, 2024
 
 Vienna
 
